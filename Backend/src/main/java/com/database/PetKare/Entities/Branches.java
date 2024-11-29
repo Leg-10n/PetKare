@@ -23,7 +23,7 @@ public class Branches {
 
     @Id
     @Column(name = "branch_id", length=45)
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private int branch_id;
 
     @Column(name = "branch_name", length=45)

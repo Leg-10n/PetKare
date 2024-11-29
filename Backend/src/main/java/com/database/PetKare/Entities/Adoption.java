@@ -24,7 +24,7 @@ public class Adoption {
     
     @Id
     @Column(name = "adoption_id", length=45)
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private int adoption_id;
     @Column(name = "pet_id", length=45)
     private int pet_id;
