@@ -13,10 +13,10 @@ import lombok.ToString;
 @ToString
 public class BranchesDTO {
     
-    private int branch_id;
-    private String branch_name;
-    private String branch_address;
-    private int branch_contact;
+    private int branchId;
+    private String branchName;
+    private String branchAddress;
+    private int branchContact;
 
 
 }

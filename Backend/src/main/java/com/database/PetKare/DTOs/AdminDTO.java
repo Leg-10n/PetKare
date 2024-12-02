@@ -12,7 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class AdminDTO {
-    private int admin_id;
-    private String admin_name;
+    private int adminId;
+    private String adminName;
     private String password;
 }

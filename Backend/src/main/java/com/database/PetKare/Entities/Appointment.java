@@ -24,15 +24,15 @@ public class Appointment {
     @Id
     @Column(name = "appointment_id", length=45)
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private int appointment_id;
+    private int appointmentId;
     @Column(name = "pet_id", length=45)
-    private int pet_id;
+    private int petId;
     @Column(name = "branch_id", length=45)
-    private int branch_id;
+    private int branchId;
     @Column(name = "adopter_id", length=45)
-    private int adopter_id;
+    private int adopterId;
     @Column(name = "appointment_date", length=45)
-    private String appointment_date;
+    private String appointmentDate;
     @Column(name = "appointment_status", length=45)
-    private String appointment_status;
+    private String appointmentStatus;
 }

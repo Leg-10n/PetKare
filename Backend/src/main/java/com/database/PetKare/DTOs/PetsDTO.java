@@ -1,5 +1,6 @@
 package com.database.PetKare.DTOs;
 
+import com.database.PetKare.Entities.Branches;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,10 +13,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class PetsDTO {
-    private int pet_id;
-    private String pet_name;
-    private String pet_type;
-    private String pet_breed;
-    private int pet_age;
-    private String pet_gender;
+    private int petId;
+    private String petName;
+    private String petType;
+    private String petBreed;
+    private int petAge;
+    private String petGender;
+    private Branches branch;
 }

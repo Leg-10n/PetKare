@@ -25,15 +25,15 @@ public class Adoption {
     @Id
     @Column(name = "adoption_id", length=45)
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private int adoption_id;
+    private int adoptionId;
     @Column(name = "pet_id", length=45)
-    private int pet_id;
+    private int petId;
     @Column(name = "adopter_id", length=45)
-    private int adopter_id;
+    private int adopterId;
     @Column(name = "branch_id", length=45)
-    private int branch_id;
+    private int branchId;
     @Column(name = "adoption_date", length=45)
-    private String adoption_date;
+    private String adoptionDate;
     @Column(name = "adoption_status", length=45)
-    private String adoption_status;
+    private String adoptionStatus;
 }

@@ -1,11 +1,6 @@
 package com.database.PetKare.Entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,17 +20,21 @@ public class Pets {
     @Id
     @Column(name = "pet_id", length=45)
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private int pet_id;
+    private int petId;
     @Column(name = "pet_name", length=45)
-    private String pet_name;
+    private String petName;
     @Column(name = "pet_type", length=45)
-    private String pet_type;
+    private String petType;
     @Column(name = "pet_breed", length=45)
-    private String pet_breed;
+    private String petBreed;
     @Column(name = "pet_age", length=45)
-    private int pet_age;
+    private int petAge;
     @Column(name = "pet_gender", length=45)
-    private String pet_gender;
-    
-    
+    private String petGender;
+    @ManyToOne
+    @JoinColumn(name = "branch_id", referencedColumnName = "branch_id")
+    private Branches branch;
+
+
+
 }

@@ -12,9 +12,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class AdoptionDTO {
-    private int adoption_id;
-    private int pet_id;
-    private int adopter_id;
-    private String adoption_date;
-    private String adoption_status;
+    private int adoptionId;
+    private int petId;
+    private int adopterId;
+    private String adoptionDate;
+    private String adoptionStatus;
 }

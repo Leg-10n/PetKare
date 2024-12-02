@@ -12,8 +12,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class AdopterDTO {
-    private int adopter_id;
-    private String adopter_name;
-    private String adopter_address;
-    private int adopter_contact;
+    private int adopterId;
+    private String adopterName;
+    private String adopterAddress;
+    private int adopterContact;
 }

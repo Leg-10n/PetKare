@@ -12,10 +12,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class AppointmentDTO {
-    private int appointment_id;
-    private int pet_id;
-    private int branch_id;
-    private int adopter_id;
-    private String appointment_date;
-    private String appointment_status;
+    private int appointmentId;
+    private int petId;
+    private int branchId;
+    private int adopterId;
+    private String appointmentDate;
+    private String appointmentStatus;
 }

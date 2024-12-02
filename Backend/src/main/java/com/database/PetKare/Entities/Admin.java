@@ -25,9 +25,9 @@ public class Admin {
     @Id
     @Column(name = "admin_id", length=45)
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private int admin_id;
+    private int adminId;
     @Column(name = "admin_name", length=45)
-    private String admin_name;
+    private String adminName;
     @Column(name = "password", length=45)
     private String password;
 }

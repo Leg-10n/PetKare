@@ -24,11 +24,11 @@ public class Adopter {
     @Id
     @Column(name = "adopter_id", length=45)
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private int adopter_id;
+    private int adopterId;
     @Column(name = "adopter_name", length=45)
-    private String adopter_name;
+    private String adopterName;
     @Column(name = "adopter_address", length=45)
-    private String adopter_address;
+    private String adopterAddress;
     @Column(name = "adopter_contact", length=45)
-    private int adopter_contact;
+    private int adopterContact;
 }
