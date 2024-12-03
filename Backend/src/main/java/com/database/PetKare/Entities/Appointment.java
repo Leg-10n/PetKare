@@ -22,17 +22,17 @@ import lombok.ToString;
 @AllArgsConstructor
 public class Appointment {
     @Id
-    @Column(name = "appointment_id", length=45)
+    @Column(name = "appointment_id")
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int appointmentId;
-    @Column(name = "pet_id", length=45)
+    @Column(name = "pet_id")
     private int petId;
-    @Column(name = "branch_id", length=45)
+    @Column(name = "branch_id")
     private int branchId;
-    @Column(name = "adopter_id", length=45)
+    @Column(name = "adopter_id")
     private int adopterId;
-    @Column(name = "appointment_date", length=45)
+    @Column(name = "appointment_date")
     private String appointmentDate;
-    @Column(name = "appointment_status", length=45)
+    @Column(name = "appointment_status")
     private String appointmentStatus;
 }

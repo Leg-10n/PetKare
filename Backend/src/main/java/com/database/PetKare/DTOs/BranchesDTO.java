@@ -16,7 +16,7 @@ public class BranchesDTO {
     private int branchId;
     private String branchName;
     private String branchAddress;
-    private int branchContact;
+    private String branchContact;
 
 
 }

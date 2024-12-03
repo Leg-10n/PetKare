@@ -22,18 +22,18 @@ import lombok.ToString;
 public class Branches { 
 
     @Id
-    @Column(name = "branch_id", length=45)
+    @Column(name = "branch_id")
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int branchId;
 
-    @Column(name = "branch_name", length=45)
+    @Column(name = "branch_name")
     private String branchName;
 
-    @Column(name = "branch_address", length=45)
+    @Column(name = "branch_address")
     private String branchAddress;
 
-    @Column(name = "branch_contact", length=45)
-    private int branchContact;
+    @Column(name = "branch_contact")
+    private String branchContact;
  
 }
 
