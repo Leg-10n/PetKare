@@ -31,9 +31,12 @@ public class Pets {
     private int petAge;
     @Column(name = "pet_gender")
     private String petGender;
+    @Column(name = "pet_image")
+    private String petImage;
     @ManyToOne
     @JoinColumn(name = "branch_id", referencedColumnName = "branch_id")
     private Branches branch;
+  
 
 
 

@@ -19,5 +19,6 @@ public class PetsDTO {
     private String petBreed;
     private int petAge;
     private String petGender;
+    private String petImage;
     private Branches branch;
 }
