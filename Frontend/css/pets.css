@@ -1,0 +1,21 @@
+.pets-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pet-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.pet-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

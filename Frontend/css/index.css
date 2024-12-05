@@ -955,6 +955,52 @@ button:focus:not(:focus-visible) {
   padding-bottom: 6px;
 }
 
+.product-thumb {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;  /* Added padding for spacing inside the card */
+  height: 100%;  /* Ensures the card takes up full height */
+  display: flex;
+  flex-direction: column;
+}
+
+.product-thumb img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product-info {
+  padding-top: 10px; 
+  display: flex;
+  flex-direction: row; /* Space between the image and the text */
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.product-p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 5px;  /* Spacing between details */
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.pet-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+
 /*---------------------------------------
   CONTACT              
 -----------------------------------------*/

@@ -12,6 +12,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
+
 @Entity
 @Table(name = "appointment")
 
@@ -32,7 +36,7 @@ public class Appointment {
     @Column(name = "adopter_id")
     private int adopterId;
     @Column(name = "appointment_date")
-    private String appointmentDate;
+    private LocalDateTime appointmentDate;
     @Column(name = "appointment_status")
     private String appointmentStatus;
 }

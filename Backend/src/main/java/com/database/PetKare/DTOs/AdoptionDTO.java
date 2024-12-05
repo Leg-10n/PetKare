@@ -6,6 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -15,6 +19,6 @@ public class AdoptionDTO {
     private int adoptionId;
     private int petId;
     private int adopterId;
-    private String adoptionDate;
+    private LocalDateTime adoptionDate;
     private String adoptionStatus;
 }

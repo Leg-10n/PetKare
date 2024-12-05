@@ -12,6 +12,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
+
 @Entity
 @Table(name = "adoption")
 
@@ -33,7 +37,7 @@ public class Adoption {
     @Column(name = "branch_id", length=45)
     private int branchId;
     @Column(name = "adoption_date", length=45)
-    private String adoptionDate;
+    private LocalDateTime adoptionDate;
     @Column(name = "adoption_status", length=45)
     private String adoptionStatus;
 }
