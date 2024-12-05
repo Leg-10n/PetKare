@@ -121,7 +121,7 @@
                         const petCard = `
                             <div class="col-lg-4 col-md-6 col-12 mb-3 pet-cards"> <!-- Updated column size for responsiveness -->
                                 <div class="product-thumb">
-                                    <a href="product-detail.html">
+                                    <a href="pet-detail.html?id=${pet.petId}">
                                         <img src="${pet.petImage}" class="img-fluid product-image" alt="${pet.petName}">
                                     </a>
         
@@ -131,6 +131,8 @@
                                         <p class="product-p">Type: ${pet.petType}</p> <!-- Display Pet Type -->
                                         <p class="product-p">Age: ${pet.petAge} years</p> <!-- Display Pet Age -->
                                         <p class="product-p">Gender: ${pet.petGender}</p> <!-- Display Pet Gender -->
+                                        <p class="product-p">Branch: ${pet.branch.branchName}</p> <!-- Display Pet Gender -->
+
                                     </div>
                                 </div>
                             </div>
